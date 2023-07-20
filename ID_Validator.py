@@ -8,6 +8,7 @@ from selenium.webdriver.common.by import By
 df = pd.read_excel("ID_Validator.xlsx")
 
 # Create a webdriver instance
+#point to your chrome driver executable
 driver = webdriver.Chrome(executable_path=r"C:\Users\Llewellyn\Documents\ID_Validator\Chrome_driver\chromedriver.exe")
 # Enables Logging
 options = webdriver.ChromeOptions()
